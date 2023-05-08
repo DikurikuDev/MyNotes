@@ -15,13 +15,16 @@ A simple development setup for Linux using Expo Managed Workflow (Expo GO).
 # Use npx instead
 $ npx expo --version
 
+# removing the global version, if `expo --version` return a version
+$ npm uninstall -g expo-cli
+
 # To create a new project
 $ npx create-expo-app --template
 
 # Working with the web version
-$ yarn web
+$ npm run web
 
 # Working with the Android version
-$ yarn start
+$ npm run start
 # Then, open the Expo app and scan the QR Code
 ```
