@@ -19,7 +19,7 @@ $ npx expo --version
 $ npm uninstall -g expo-cli
 
 # To create a new project
-$ npx create-expo-app --template
+$ npx create-expo-app
 
 # Working with the web version
 $ npm run web
