@@ -1,8 +1,7 @@
-# My React Native Notes
+# My Notes
 
-All important things that I learned about React Native, for future reference.
+All important things that I learned, for future reference.
 
 ## Content
 
-- [Setup](docs/setup.md)
-- [Mobile Components](docs/mobileComponents.md)
+- [React Native](ReactNative/README.md)
