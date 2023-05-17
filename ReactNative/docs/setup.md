@@ -69,3 +69,7 @@ studio.sh
 npm run start
 npm run android
 ```
+
+### Troubleshooting
+
+If there is an error while installing the app, try to open the Android folder as an Android Studio project, wait for dependency updates and check for error messages (it might provide an automatic solution).
