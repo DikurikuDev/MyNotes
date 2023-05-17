@@ -55,13 +55,17 @@ echo 'export PATH=$PATH:$ANDROID_HOME/platform-tools' >> ~/.bashrc
 # Download https://developer.android.com/studio and extract to ~/
 echo 'export PATH=$PATH:~/android-studio/bin' >> ~/.bashrc
 
-# (in a new terminal start) to start and install dependencies
+# (in a new terminal start) Start and install dependencies
 studio.sh
 
 # KVM (Kernel-mode Virtual Machine)
 sudo apt install qemu-kvm
 sudo adduser $USER kvm
 
-# (in a new terminal start) start new Android virtual machine
+# (in a new terminal start) Start new Android virtual machine
 studio.sh
+
+# (in the project) Run commands separately
+npm run start
+npm run android
 ```
